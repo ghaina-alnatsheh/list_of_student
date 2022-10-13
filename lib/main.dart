@@ -100,8 +100,8 @@ class StudentItem extends StatelessWidget{
                       ),
                       Row(
                         children: [
-                          Icon(Icons.add),
-                          Icon(Icons.remove)
+                          IconButton(icon: Icon(Icons.add), onPressed: (){ },),
+                          IconButton(icon: Icon(Icons.remove), onPressed: (){ },))
                         ],
                       ),
                       Container(
